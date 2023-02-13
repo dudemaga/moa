@@ -255,11 +255,6 @@
       </plugin>
 
       <plugin>
-        <groupId>com.github.fracpete</groupId>
-        <artifactId>latex-maven-plugin</artifactId>
-      </plugin>
-
-      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
       </plugin>
