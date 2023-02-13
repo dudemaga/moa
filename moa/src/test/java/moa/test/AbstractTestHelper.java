@@ -42,7 +42,7 @@ public abstract class AbstractTestHelper<I, O> {
   protected String m_DataDirectory;
 
   /**
-   * Initializes the helper class.
+   * Initializes the helper class..
    *
    * @param owner	the owning test case
    * @param dataDir	the data directory to use
