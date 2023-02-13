@@ -216,7 +216,6 @@
             <includes>
               <include>**/*Test.java</include>
             </includes>
-            <disableXmlReport>true</disableXmlReport>
             <redirectTestOutputToFile>true</redirectTestOutputToFile>
           </configuration>
         </plugin>
@@ -280,24 +279,6 @@
               </configuration>
             </execution>
           </executions>
-        </plugin>
-
-        <!-- generate documentation -->
-        <plugin>
-          <groupId>com.github.fracpete</groupId>
-          <artifactId>latex-maven-plugin</artifactId>
-          <version>1.4.4</version>
-          <executions>
-            <execution>
-              <phase>package</phase>
-              <goals>
-                <goal>latex</goal>
-              </goals>
-            </execution>
-          </executions>
-          <configuration>
-            <forceBuild>true</forceBuild>
-          </configuration>
         </plugin>
 
         <plugin>
