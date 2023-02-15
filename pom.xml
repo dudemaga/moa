@@ -11,7 +11,7 @@
     Massive On-line Analysis is an environment for massive data mining. MOA
     provides a framework for data stream mining and includes tools for evaluation
     and a collection of machine learning algorithms. Related to the WEKA project,
-    also written in Java, while scaling to more demanding problems.
+    also written in Java, while scaling to more demanding problems
   </description>
   <url>http://moa.cms.waikato.ac.nz/</url>
   <organization>
